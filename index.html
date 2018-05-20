@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Furie</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="When Great Minds Don’t Think Alike"/>
+  <meta property="og:description"content="How much does culture influence creative thinking?"/>
+  <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"/>
+  <!-- DYNAMICS LINKS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- STATICS LINKS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="N/A transparent z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">
+          <img src="img/logo.png" alt="Logo">
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#"><i class="material-icons left blue-icon">email</i>contact@furie.co</a></li>
+          <li><a href="#"><i class="material-icons left blue-icon">local_phone</i>+48 605 320 091</a></li>
+          <li><button type="submit" class="btn-top">log in</button></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">Javascript</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+  </header>
+  <!-- /HEADER -->
+
+  <!-- Swiper -->
+  <div class="swiper-container black-bg">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/mercedes.png" alt="Slide Image">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/BMW-X5-PNG-Pic.png" alt="Slide Image">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/BMW-X6-PNG-Clipart.png" alt="Slide Image">
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <h6>car bying made simple</h6>
+    <div class="row">
+      <form class="col s12">
+        <div class="row inputs">
+          <div class="input-field col s6 m3 l3">
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">Make</label>
+          </div>
+          <div class="input-field col s6 m3 l3">
+            <input id="icon_telephone" type="text" class="validate">
+            <label for="icon_telephone">Model</label>
+          </div>
+          <div class="input-field col s6 m3 l3">
+            <input id="icon_telephone" type="text" class="validate">
+            <label for="icon_telephone">City</label>
+          </div>
+          <button type="submit" class="btn-other">search</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- /Swiper -->
+
+  <!-- MAIN -->
+  <main>
+    <!-- TALE YOUR BEST -->
+    <div class="row">
+      <h5 class="center-align">take your best</h5>
+      <div class="cars-models">
+        <img src="img/cars/mazda.png" alt="Mazda">
+        <img src="img/cars/hyundai.png" alt="Hyundai">
+        <img src="img/cars/bmw.png" alt="BMW">
+        <img src="img/cars/volvo.png" alt="Volvo">
+        <img src="img/cars/chevrolet.png" alt="Chevrolet">
+        <img src="img/cars/mercedes.png" alt="Mercedes">
+        <img src="img/cars/honda.png" alt="Honda">
+      </div>
+      <div class="divider"></div>
+    </div>
+    <!-- TALE YOUR BEST -->
+
+    <!-- BMW SERIES -->
+    <div class="row">
+      <div class="bmw-bg">
+        <div class="blabla">
+          <img src="img/bmw.png" class="responsive-image" alt="BMW Car">
+          <div class="texts">
+            <h4>bmw <span>series</span></h4>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed magna arcu. Quisque in
+              augue faucibus, eleifend quam vitae, euismod enim. Donec egestas lacus ut euismod </p>
+            <button type="submit" class="btn-other">view all models</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BMW SERIES -->
+
+    <!-- ADD -->
+    <div class="row">
+      <div class="add">
+        <h3>Add your announcement now</h3>
+        <button type="submit" class="btn-add N/A transparent">add now</button>
+      </div>
+    </div>
+    <!-- /ADD -->
+
+    <!--  -->
+    <div class="row">
+      <div class="white-bg">
+        <div class="fresh">
+          <div class="fresh-left z-depth-2">
+            <div class="furie">
+              <span class="fresh-span">fresh</span>
+            </div>
+            <div class="infos">
+              <p class="car-name">Mercedes Benz Lorem
+                <span>Mercedes cars</span>
+              </p>
+              <p class="stats">2013 - 75 500 km - Diesel - 1.8</p>
+              <div class="price">
+                <p>15.000$</p>
+                <button>more info</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="fresh-right z-depth-2">
+            <div class="white-part">
+              <span>Mercedes Cars</span>
+              <span class="merco-price right">15.000$</span>
+              <h4>Mercedes Benz lorem</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. In sed magna arcu.
+                Quisque in augue faucibus, eleifend
+                quam vitae, euismod enim.
+              </p>
+              <button type="submit" class="btn-other">order car</button>
+            </div>
+            <div class="blue-part">
+              <span class="fresh-span">fresh</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+    <div class="container">
+      <div class="row z-depth-2 ah-ah">
+        <div class="white-container">
+          <div class="row">
+            <form class="col s12">
+              <div class="row inputs-2">
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Make</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">Warsaw, Poland.</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">Category</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">Keywords</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="divider"></div>
+          <div class="cars-models">
+            <img src="img/cars/mazda.png" alt="Mazda">
+            <img src="img/cars/hyundai.png" alt="Hyundai">
+            <img src="img/cars/bmw.png" alt="BMW">
+            <img src="img/cars/volvo.png" alt="Volvo">
+            <img src="img/cars/chevrolet.png" alt="Chevrolet">
+            <img src="img/cars/mercedes.png" alt="Mercedes">
+            <img src="img/cars/honda.png" alt="Honda">
+          </div>
+          <div class="row">
+            <form class="col s12">
+              <div class="row inputs-2">
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Price from</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">To</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">Years from</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">To</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="blue-container">
+          <div class="row">
+            <form class="col s12">
+              <div class="row inputs-2">
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Price from</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">To</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">Years from</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">To</label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="row">
+            <form class="col s12">
+              <div class="row inputs-2">
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Price from</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">To</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">Years from</label>
+                </div>
+                <div class="input-field col s6 m3 l3">
+                  <input id="icon_telephone" type="text" class="validate">
+                  <label for="icon_telephone">To</label>
+                </div>
+              </div>
+              <button type="submit" class="btn-bottom">search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </main>
+  <!-- /MAIN -->
+
+
+
+
+  <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>

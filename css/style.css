@@ -1,0 +1,352 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/* -------------- HEADER -------------- */
+header {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #131210;
+}
+img[src="img/logo.png"] {
+  margin-top: 10px;
+}
+nav ul a {
+  font-size: 12px !important;
+}
+.btn-top {
+  background-color: #fff !important;
+  border-radius: 100px;
+  color: #125ec5;
+  text-transform: uppercase;
+  border: none;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 12px 20px;
+}
+.blue-icon {
+  color: #125ec5 !important;
+}
+/* -------------- /HEADER -------------- */
+
+/* -------------- SWIPER ------------- */
+.black-bg  {
+  background-image: url("../img/text-bg-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 5%;;
+}
+.swiper-slide img {
+  width: 40%;
+  margin-top: 70px;
+  object-fit: cover;
+}
+.swiper-pagination-bullet {
+  background-color: #3c3c3c;
+}
+.swiper-pagination-bullet-active {
+  background-color: #135ec5
+}
+.inputs {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  position: absolute;
+}
+h6 {
+  color: #fff;
+  bottom: 15%;
+  left: 45%;
+  z-index: 99999;
+  position: absolute;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+input {
+  color: #fff;
+  border-bottom-color: #3c3c3c !important;
+}
+label {
+  color: #3c3c3c !important;
+}
+.btn-other {
+  background-color: #125ec5 !important;
+  border-radius: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 12px 40px;
+}
+/* -------------- SWIPER ------------- */
+
+/* -------------- TAKE YOUR BEST ------------- */
+.row {
+  margin-bottom: 0 !important;
+}
+.cars-models {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.cars-models img {
+  padding: 30px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: filter .3s ease-in-out;
+}
+.cars-models img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: filter .3s ease-in;
+}
+h5 {
+  font-size: 14px;
+  color: #c1c1c1;
+  text-transform: capitalize;
+}
+/* -------------- TAKE YOUR BEST ------------- */
+
+/* -------------- BMW SERIES ------------- */
+.bmw-bg {
+  width: 100%;
+  height: 302px;
+  padding: 20px 0px;
+  background-image: url("../img/series.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 10% 20%;
+}
+.blabla {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.blabla img {
+  width: 30%;
+}
+h4 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #125ec5;
+  text-transform: uppercase;
+}
+h4 span {
+  text-transform: capitalize;
+}
+.lorem {
+  line-height: 3;
+  font-size: 12px;
+  white-space: pre-line;
+  margin-bottom: 40px;
+}
+/* -------------- /BMW SERIES ------------- */
+
+
+/* ---------------- ADD -------------------*/
+.add {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #135ec5;
+  flex-direction: column;
+}
+h3 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.btn-add {
+  border-radius: 100px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 8px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+/* ---------------- /ADD ----------------- */
+
+/* ---------------------------------------- */
+.white-bg {
+  padding-top: 200px;
+  position: relative;
+}
+.white-bg::before {
+  position: absolute;
+  top: -50px;
+  left: 25%;
+  content: url("../img/car-profil.png");
+}
+.fresh {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fresh-left {
+  width: 30%;
+}
+.furie {
+  background-color: #135ec5;
+  width: 100%;
+  height: 150px;
+  background-image: url("../img/furie.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fresh-span {
+  color: #135ec5;
+  background-color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 100px;
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+.infos {
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  padding-top: 100px;
+}
+.infos::before {
+  position: absolute;
+  top: -100px;
+  left: 30px;
+  content: url("../img/mercedes-Benz.png");
+}
+.car-name {
+  font-weight: 700;
+  font-size: 24px;
+  white-space: pre-line;
+  line-height: 1;
+}
+.car-name span {
+  color: #135ec5;
+  font-size: 10px;
+}
+.stats {
+  color: #c1c1c1;
+}
+.price {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.price p {
+  color: #16ad2c;
+  font-weight: 500;
+  font-size: 22px;
+}
+.price button {
+  background-color: #c1c1c1;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+.fresh-right {
+  width: 50%;
+  display: flex;
+}
+.white-part {
+  width: 50%;
+  padding: 100px 0px;
+}
+.white-part h4 {
+  font-size: 20px;
+}
+.white-part p {
+  color: #c1c1c1;
+  line-height: 4;
+  font-size: 12px;
+  white-space: pre-line;
+}
+.merco-price {
+  color: #16ad2c;
+  font-weight: 500;
+  font-size: 22px;
+}
+.blue-part {
+  width: 50%;
+  padding: 100px 0px;
+  position: relative;
+  background-color: #135ec5;
+}
+.blue-part::before {
+  position: absolute;
+  right: 0%;
+  content: url("../img/merco.png");
+}
+img[src="img/merco.png"] {
+  width: 50%;
+}
+/* ---------------------- */
+.container {
+  justify-content: center;
+  width: 80% !important;
+  padding-bottom: 100px;
+}
+.ah-ah {
+  margin-top: 100px;
+}
+.inputs-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.blue-container {
+  margin-top: 20px;
+  background-color: #135ec5;
+  position: relative;
+}
+.blue-container::before {
+  content: "Hide advanced search";
+  color: #fff;
+  top: -20px;
+  left: 45%;
+  border-radius: 10px;
+  background-color: #135ec5;
+  position: absolute;
+  padding: 6px;
+  font-size: 8px;
+}
+.btn-bottom {
+  background-color: #fff !important;
+  border-radius: 100px;
+  color: #125ec5;
+  text-transform: uppercase;
+  border: none;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 12px 40px;
+  margin: 50px auto;
+  display: block;
+}
