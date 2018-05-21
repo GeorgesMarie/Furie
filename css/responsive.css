@@ -1,0 +1,116 @@
+/* MOBILE */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+  .swiper-slide img {
+    width: 90%;
+    margin: 0;
+  }
+  .inputs {
+    width: 90%;
+    margin-left: 20px !important;
+  }
+  .btn-other {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .input-field {
+    margin: 0;
+  }
+  h6 {
+    left: 30%;
+    bottom: 33%;
+  }
+  .cars-models {
+    width: 100%;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .lorem {
+    line-height: normal;
+    white-space: normal;
+    margin-bottom: 5px;
+  }
+  .bmw-bg {
+    background-size: 90%;
+  }
+  .blabla img {
+    width: 70%;
+  }
+  .texts {
+    width: 100%;
+  }
+  .add {
+    height: 200px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .white-bg::before {
+    left: 0;
+    width: 100%;
+  }
+  .container {
+    width: 90% !important;
+    padding-bottom: 70px;
+  }
+  .blue-container::before {
+    left: 35%;
+  }
+  .btn-bottom {
+    margin: 30px auto;
+  }
+}
+/* ---------------------------------- */
+
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .swiper-slide img {
+    width: 50%;
+    margin: 0;
+  }
+  .inputs {
+    width: 90%;
+    margin-left: 35px !important;;
+  }
+  .btn-other {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  h6 {
+    left: 45%;
+    bottom: 17%;
+  }
+  .cars-models {
+    width: 100%;
+  }
+  h4 {
+    /* font-size: 20px; */
+  }
+  .add {
+    height: 200px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  .white-bg::before {
+    left: 20%;
+  }
+  .container {
+    width: 90% !important;
+    padding-bottom: 70px;
+  }
+  .blue-container::before {
+    left: 44%;
+  }
+  .btn-bottom {
+    margin: 30px auto;
+  }
+  .texts {
+    width: 50%;
+  }
+}

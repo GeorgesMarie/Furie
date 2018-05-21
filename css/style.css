@@ -152,7 +152,10 @@ h4 span {
   line-height: 3;
   font-size: 12px;
   white-space: pre-line;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+.texts {
+  width: 50%;
 }
 /* -------------- /BMW SERIES ------------- */
 
@@ -188,10 +191,15 @@ h3 {
   position: relative;
 }
 .white-bg::before {
+  content: "";
   position: absolute;
   top: -50px;
   left: 25%;
-  content: url("../img/car-profil.png");
+  display: block;
+  background-image: url("../img/car-profil.png");
+  background-repeat: no-repeat;
+  width: 624px;
+  height: 236px;
 }
 .fresh {
   width: 100%;
