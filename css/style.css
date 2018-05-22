@@ -376,3 +376,6 @@ img[src="img/merco.png"] {
   margin: 50px auto;
   display: block;
 }
+.border-color input {
+  border-bottom-color: #fff !important;
+}
