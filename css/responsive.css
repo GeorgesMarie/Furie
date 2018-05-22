@@ -21,7 +21,7 @@
   }
   h6 {
     left: 30%;
-    bottom: 33%;
+    bottom: 28%;
   }
   .cars-models {
     width: 100%;
@@ -38,7 +38,7 @@
     background-size: 90%;
   }
   .blabla img {
-    width: 70%;
+    width: 50%;
   }
   .texts {
     width: 100%;
@@ -58,16 +58,51 @@
     padding-bottom: 70px;
   }
   .blue-container::before {
-    left: 35%;
+    left: 40%;
   }
   .btn-bottom {
     margin: 30px auto;
+  }
+  .infos {
+    padding-top: 60px;
+  }
+  /* --------------------------------- */
+  .fresh-left {
+    width: 90%;
+  }
+  .fresh-right {
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+  }
+  .white-bg {
+    padding-top: 150px;
+  }
+  .merco-price {
+    font-size: 14px;
+  }
+  .white-part {
+    padding: 25px 0 0 0;
+  }
+  .white-part p {
+    line-height: 2;
+    white-space: normal;
+  }
+  .white-part h4 {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  .blue-part::before {
+    top: 30px;
+  }
+  .white-part button {
+    margin-top: 60px;
   }
 }
 /* ---------------------------------- */
 
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (min-width: 992px) {
   .swiper-slide img {
     width: 50%;
     margin: 0;
@@ -113,4 +148,8 @@
   .texts {
     width: 50%;
   }
+  .infos::before {
+    left: 10px;
+  }
+  /* ----------------------------------- */
 }
