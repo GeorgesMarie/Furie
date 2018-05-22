@@ -62,7 +62,7 @@ nav ul a {
 }
 h6 {
   color: #fff;
-  bottom: 15%;
+  bottom: 10% !important;
   left: 45%;
   z-index: 99999;
   position: absolute;
