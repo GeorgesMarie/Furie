@@ -244,7 +244,7 @@ h3 {
   height: 162px;
   position: absolute;
   top: -100px;
-  left: 30px !important;
+  left: 30px;
   background-image: url("../img/mercedes-Benz.png");
   background-repeat: no-repeat;
   background-size: 100%;

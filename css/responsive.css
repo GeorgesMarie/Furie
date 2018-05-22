@@ -4,7 +4,7 @@
     left: 32% !important;
   }
   .infos::before {
-    left: 4px !important;
+    left: 30px !important;
     top: -80px !important;
   }
   h3 {
@@ -36,10 +36,6 @@
     margin-bottom: 20px !important;
   }
 }
-
-
-
-
 
 
 /* MOBILE */
@@ -156,7 +152,7 @@
 /* ---------------------------------- */
 
 
-@media only screen and (min-width: 601px) and (min-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .swiper-slide img {
     width: 50%;
     margin: 0;
@@ -206,6 +202,24 @@
     left: 10px;
   }
   /* ----------------------------------- */
+}
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
+  .white-bg::before {
+    left: 35%;
+  }
+  .fresh {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .infos::before {
+    left: 68px;
+    width: 68%;
+  }
+  .blabla img {
+    width: 25%;
+  }
 }
 
 
